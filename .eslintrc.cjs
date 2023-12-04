@@ -11,13 +11,12 @@ module.exports = {
       sourceType: 'module',
       project: './tsconfig.json'
     },
-    overrides: [
+   /*  overrides: [
       {
         files: [
           '.eslintrc.{js,cjs}',
           'tailwind.config.js',
           'postcss.config.js',
-          'vite.config.js'
         ],
         parser: 'espree',
         parserOptions: {
@@ -27,7 +26,7 @@ module.exports = {
         },
         rules: {}
       }
-    ],
+    ], */
     rules: {
       semi: 'off',
       '@typescript-eslint/semi': 'off',
